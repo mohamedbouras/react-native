@@ -1,0 +1,59 @@
+/* AddData.css */
+
+/* Center the card in the middle of the page */
+.myNewData{
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+.container-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your preference for vertical centering */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form elements */
+  .inpAdd[type="text"],
+  textarea,
+  .inpAdd[type="file"],
+  .btn-add{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+ .btn-add{
+    background-color: #007bff; /* Customize the button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3; /* Customize the button color on hover */
+  }
+  
+  /* Style the uploaded image */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+  }
+  

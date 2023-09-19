@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "mohamed",
+    "password": "Ines+est123",
+    "database": "fb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "mohamed",
+    "password": "Ines+est123",
+    "database": "fb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "mohamed",
+    "password": "Ines+est123",
+    "database": "fb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
